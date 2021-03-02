@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+/*Change all the text on each page to the imported font from google*/
+*{
+    font-family: 'Oswald', sans-serif;
+}    
+/*A background design for the container*/
+.container{    
+    background-image: url("./images/bg-design.jpg");
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-fluid{
+    margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.yellow{
+    color: gold;
 }
 
-.App-link {
-  color: #61dafb;
+.blue{
+    color: royalblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+    color: rgb(66, 66, 255);
+}
+
+.about-body{
+    font-size: large;
+}
+
+div.p-3.mb-2.text-center, footer {
+    background:linear-gradient(45deg, blue, lightblue);
+}
+
+nav.navbar.navbar-expand-lg.navbar-light, footer {
+    font-size: 20px;
 }
